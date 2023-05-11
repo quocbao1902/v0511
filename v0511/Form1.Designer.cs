@@ -37,7 +37,7 @@
             button1.BackColor = Color.DarkViolet;
             button1.Font = new Font("Yu Gothic UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.MenuText;
-            button1.Location = new Point(278, 164);
+            button1.Location = new Point(91, 147);
             button1.Name = "button1";
             button1.Size = new Size(218, 96);
             button1.TabIndex = 0;
@@ -48,11 +48,12 @@
             // button2
             // 
             button2.BackColor = Color.DarkRed;
-            button2.Location = new Point(318, 360);
+            button2.Font = new Font("Yu Gothic UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(400, 147);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(188, 96);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "God Hades";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
